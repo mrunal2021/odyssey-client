@@ -29,14 +29,14 @@ query getTrack($trackId: ID!) {
         photo
       }
       thumbnail
-      length
+      durationInSeconds
       modulesCount
   
       numberOfViews
       modules {
         id
         title
-        length
+        durationInSeconds
       }
       description
     }
